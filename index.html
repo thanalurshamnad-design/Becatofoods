@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Becato Foods | Bite the Pure Joy!</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:Poppins,sans-serif;
+background:#1b0538;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(27,5,56,.85);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+}
+
+nav a{
+color:white;
+margin-left:22px;
+text-decoration:none;
+}
+
+.amazon{
+background:#FFD12D;
+color:black;
+padding:12px 20px;
+border-radius:30px;
+font-weight:700;
+text-decoration:none;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:120px 8% 80px;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero h1{
+font-size:64px;
+line-height:1;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+opacity:.9;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+border-radius:35px;
+text-decoration:none;
+font-weight:700;
+margin-right:15px;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.shop{
+border:2px solid white;
+color:white;
+}
+
+.hero img{
+width:430px;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+50%{transform:translateY(-18px);}
+}
+
+.section{
+padding:90px 8%;
+}
+
+.title{
+font-size:42px;
+margin-bottom:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:25px;
+}
+
+.card{
+background:#2b0d5a;
+padding:28px;
+border-radius:22px;
+}
+
+.product{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:50px;
+}
+
+.product img{
+width:360px;
+}
+
+.story{
+background:#2b0d5a;
+border-radius:30px;
+padding:50px;
+}
+
+footer{
+padding:50px 8%;
+background:#120224;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+display:block;
+margin:8px 0;
+}
+
+@media(max-width:768px){
+.hero h1{font-size:46px;}
+.hero img{width:280px;}
+nav{display:none;}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">Becato</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#shop">Shop</a>
+<a href="#story">Story</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<a class="amazon" href="#">Buy on Amazon</a>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<p>PREMIUM SNACKS FROM NATURE</p>
+
+<h1>Bite the<br>Pure Joy!</h1>
+
+<p>Naturally crisp. Authentically delicious. Crafted from real jackfruit.</p>
+
+<a class="btn whatsapp" href="https://wa.me/917306130415">WhatsApp</a>
+
+<a class="btn shop" href="#shop">Explore</a>
+
+</div>
+
+<img src="product.jpg">
+
+</section>
+
+<section class="section">
+
+<h2 class="title">Why Choose Becato?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Natural Ingredients</h3>
+<p>Made from carefully selected jackfruit.</p>
+</div>
+
+<div class="card">
+<h3>Authentic Taste</h3>
+<p>Real Kerala flavour in every bite.</p>
+</div>
+
+<div class="card">
+<h3>Premium Quality</h3>
+<p>Luxury packaging and fresh taste.</p>
+</div>
+
+<div class="card">
+<h3>No Added Preservatives</h3>
+<p>Simple and honest ingredients.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="shop" class="section">
+
+<h2 class="title">Our First Product</h2>
+
+<div class="product">
+
+<img src="product.jpg">
+
+<div>
+
+<h2>Becato Jackfruit Chips</h2>
+
+<p style="margin:18px 0;">
+Natural • Authentic • Luxurious • 100g
+</p>
+
+<a class="btn amazon" href="#">Order on Amazon</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="story" class="section">
+
+<div class="story">
+
+<h2 class="title">Our Brand Story</h2>
+
+<p style="line-height:1.9;">
+Becato was created to turn nature's finest fruits into premium snacks that bring joy to everyday moments.
+The letter "t" forms a hand holding the "o", symbolising the way we naturally reach for our favourite snack.
+Every bite represents happiness, comfort and togetherness.
+</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="title">Customer Reviews</h2>
+
+<div class="cards">
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>"Amazing crunch and premium quality."</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>"Loved the authentic jackfruit flavour."</p>
+</div>
+
+<div class="card">
+⭐⭐⭐⭐⭐
+<p>"Will definitely order again."</p>
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2 class="title">Let's Connect</h2>
+
+<a href="tel:+917306130415">📞 7306130415</a>
+
+<a href="mailto:hello@becatofoods.com">✉ hello@becatofoods.com</a>
+
+<a href="#">📷 Instagram</a>
+
+<a href="#">🛒 Amazon Store</a>
+
+<p style="margin-top:30px;opacity:.8;">
+© Becato Foods — Bite the Pure Joy!
+</p>
+
+</footer>
+
+</body>
+</html>
